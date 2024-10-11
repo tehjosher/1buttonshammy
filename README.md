@@ -5,5 +5,4 @@ The program checks for and applies lightning shield, rockbiter/or/windfury weapo
 
 REQUIRED ADDONS:
 
-Super Macros
-Quick Weapon Swap
+Super Macros, Quick Weapon Swap
