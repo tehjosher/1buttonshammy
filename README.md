@@ -6,3 +6,8 @@ The program checks for and applies lightning shield, rockbiter/or/windfury weapo
 REQUIRED ADDONS:
 
 Super Macros, Quick Weapon Swap
+
+
+CURRENT BUGS:
+
+Currently 2 hander is supposed to apply windfury weapon but somehow applies rockbiter.
