@@ -16,7 +16,7 @@ Known bugs: Downranking code is sloppy will have to redo.
 
 shammy1button 1.2
 
-It has come to my attention that on turtle wow, the weapon buffs do not stack. So if you intend to use windfury as I do, you can't use the other ones. I guess in groups it's best to not use a weapon buff at all if you want to take advantage of windfury totem. So, code changed to apply and keep up windfury weapon. Will add 2nd file with weapon buff removed to try in groups. Also fixed downranking coding.
+It has come to my attention that on turtle wow, the weapon buffs do not stack. So if you intend to use windfury as I do, you can't use the other ones. I guess in groups it's best to not use a weapon buff at all if you want to take advantage of windfury totem. So, code changed to apply and keep up windfury weapon. Also fixed downranking coding.
 
 
 
