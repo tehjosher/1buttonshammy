@@ -3,7 +3,7 @@ function shaman_1button()
     local lightning_shield = "Lightning Shield"
     local stormstrike = "Stormstrike"
     local earth_shock = "Earth Shock"
-    local rockbiter_weapon = "Rockbiter Weapon"
+    local windfury_weapon = "Windfury Weapon"
 
     -- Stormstrike on cooldown.
     if cooldown_for(stormstrike) == 0 then
@@ -16,9 +16,9 @@ function shaman_1button()
             return
     end
 
-      -- Keep up Rockbiter Weapon.
-    if not buffed("Rockbiter", 'player') then
-         cast(rockbiter_weapon)
+      -- Keep up Windfury Weapon.
+    if not buffed("Windfury", 'player') then
+         cast(windfury_weapon)
          return
     end
 
@@ -56,12 +56,12 @@ end
 function cast_and_downrank(spell_name)
     local mana = UnitMana("player")
     local max_mana = UnitManaMax("player")
-    if mana/max_mana < 0.6 then
-        spell_name = string.format("%s(Rank 4)", spell_name)
-    end
-
     if mana/max_mana < 0.2 then
         spell_name = string.format("%s(Rank 1)", spell_name)
+
+    elseif mana/max_mana < 0.6 then
+     
+        spell_name = string.format("%s(Rank 4)", spell_name)
     end
 
     cast(spell_name)
