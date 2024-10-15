@@ -1,6 +1,6 @@
 function shaman_1button()
     -- spell names
-    local lightning_shield = "Lightning Shield"
+    local water_shield = "Water Shield"
     local stormstrike = "Stormstrike"
     local earth_shock = "Earth Shock"
     local windfury_weapon = "Windfury Weapon"
@@ -10,13 +10,13 @@ function shaman_1button()
         cast(stormstrike)
     end
 
-    -- Keep up Lightning Shield.
-    if not buffed(lightning_shield) then
-            cast(lightning_shield)
+    -- Keep up Water Shield.
+    if not buffed(water_shield) then
+            cast(water_shield)
             return
     end
 
-      -- Keep up Windfury Weapon.
+    -- Keep up Windfury Weapon.
     if not buffed("Windfury", 'player') then
          cast(windfury_weapon)
          return
