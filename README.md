@@ -20,6 +20,12 @@ It has come to my attention that on turtle wow, the weapon buffs do not stack. S
 
 
 
+shaman1button 1.3
+
+I swapped lightning shield for water shield and also added a group option. Spamming earth shock is lots of aggro, not bad for tanking, but in groups I opted to swap to flame shock. The "grp" version will scan target for the flame shock debuff and only cast if the debuff is not active. This also leaves earth shock available to use for it's spell silence ability. I also removed the weapon buff option in groups assuming I will be throwing down windfury totem, as they do not stack. If you are not for whatever reason, I left the code in there commented out so you can uncomment it and continue to auto weapon buff yourself if you wish. I stopped weapon swapping within this macro but left it because using weapon swap instead of /equip is VERY important, as /equip will leave you vulnerable to vendoring your items. Weaponswap macro is BEST PRACTICES.
+
+
+
 REQUIRED ADDONS:
 
 Super Macros, Quick Weapon Swap
