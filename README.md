@@ -2,10 +2,10 @@
 
 _CURRENT VERSION_
 
-Solo- Auto buffs windfury weapon, applies and keeps up water shield, spams earth shock on cooldown, downranks from max rank -> rank 4 at 60% mana -> rank 1 at 20% mana.
+Solo- Auto buffs windfury weapon, applies and keeps up water shield, spams stormstrike on cooldown, spams earth shock on cooldown, downranks from max rank -> rank 4 at 60% mana -> rank 1 at 20% mana.
 
 
-Group- Applies and keeps up water shield, spams flame shock when debuff falls, downranks from max rank -> rank 4 at 60% mana -> rank 1 at 20% mana.
+Group- Applies and keeps up water shield, spams stormstrike on cooldown, spams flame shock when debuff falls, downranks from max rank -> rank 4 at 60% mana -> rank 1 at 20% mana.
 
 shaman1button 1.3
 
