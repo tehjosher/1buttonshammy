@@ -1,4 +1,4 @@
-function shaman_1button()
+function shaman_1buttongrp()
     -- spell names
     local water_shield = "Water Shield"
     local stormstrike = "Stormstrike"
