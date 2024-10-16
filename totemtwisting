@@ -1,0 +1,11 @@
+-- To set this up, you make two different macros in your macro book which call upon each other. Just simplifies things into one button without modifiers. I made one called GOA and one called WF. Drag either one onto bar and it will cast desired totem and swap to the other.
+
+
+-- "GOA"
+/cast Grace of Air Totem
+/script SetActionMacro( lastActionUsed, 'WF' )
+
+
+-- "WF"
+/cast Windfury Totem
+/script SetActionMacro( lastActionUsed, 'GOA' )
